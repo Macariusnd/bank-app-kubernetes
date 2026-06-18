@@ -1,0 +1,25 @@
+# Environment files — never commit real values
+.env
+*.env
+
+# Java/Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+
+# Node/React
+node_modules/
+build/
+.npm
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.iml
+.vscode/
